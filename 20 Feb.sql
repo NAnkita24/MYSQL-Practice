@@ -31,13 +31,13 @@ after name;
 alter table profile
 modify email int(3);
 
-alter table profile
+ALTER TABLE profile
 add unique(email) ;
 
-alter table profile
+ALTER TABLE profile
 change email Email_Id varchar(40);
 
-alter table profile
+ALTER TABLE profile
 drop Email_Id ;
 
 alter table profile
